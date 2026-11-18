@@ -1,0 +1,242 @@
+[elf]
+file_path = D:/-- DCDC_Controlor/BUCKTMS320F28P55X/ccs_project/CPU1_FLASH/BUCK_F28P55X.elf
+relative_path = false
+
+[general]
+version = 2
+
+[settings]
+sample_frequency_hz = 20
+max_points = 10000
+max_viewport_points = 5000
+viewport_width_ms = 2000
+refresh_on_elf_change = true
+stop_acq_on_elf_change = true
+probe_type = 2
+target_name = 
+probe_mode = 0
+probe_sn = remote
+probe_speed_khz = 1000
+probe_baudrate = 115200
+elf_parser = c2000
+ofd2000_command = D:/software2/ccs_21.0.1/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/bin/ofd2000.exe
+gdb_command = gdb
+recorder_enabled = false
+restart_on_group_change = true
+keep_connection = true
+mcp_server_port = 8765
+ip_address = 127.0.0.1
+port = 3334
+
+[var0]
+name = viewer_heartbeat
+tracked_name = viewer_heartbeat
+address = 44656
+type = 5
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var1]
+name = viewer_rx_bytes
+tracked_name = viewer_rx_bytes
+address = 44658
+type = 5
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var2]
+name = viewer_tx_bytes
+tracked_name = viewer_tx_bytes
+address = 44660
+type = 5
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var3]
+name = viewer_errors
+tracked_name = viewer_errors
+address = 44662
+type = 5
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var4]
+name = adc_frame_count
+tracked_name = adc_frame_count
+address = 44690
+type = 5
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var5]
+name = adc_error_count
+tracked_name = adc_error_count
+address = 44692
+type = 5
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var6]
+name = oled_online
+tracked_name = oled_online
+address = 44666
+type = 3
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var7]
+name = oled_last_error
+tracked_name = oled_last_error
+address = 44668
+type = 5
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[var8]
+name = power_output_enabled
+tracked_name = power_output_enabled
+address = 44544
+type = 3
+color = 3550450300
+should_update_from_elf = false
+shift = 0
+mask = 4294967295
+high_level_type = 0
+value_to_write = 0
+secondary_value_to_write = 0
+do_not_interpret_as_enum = false
+write_limits_enabled = false
+write_limit_min = 0
+write_limit_max = 0
+
+[group0]
+name = Communication
+acquisition_type = 0
+override_sample_rate = false
+sample_frequency_hz = 20
+override_viewport_width = false
+viewport_width_ms = 2000
+
+[group0-plot0]
+name = Communication
+type = 2
+visibility = true
+secondary_write_enabled = false
+
+[group0-plot0-series0]
+name = viewer_heartbeat
+visibility = true
+format = DEC
+
+[group0-plot0-series1]
+name = viewer_rx_bytes
+visibility = true
+format = DEC
+
+[group0-plot0-series2]
+name = viewer_tx_bytes
+visibility = true
+format = DEC
+
+[group0-plot0-series3]
+name = viewer_errors
+visibility = true
+format = DEC
+
+[group0-plot0-series4]
+name = adc_frame_count
+visibility = true
+format = DEC
+
+[group0-plot0-series5]
+name = adc_error_count
+visibility = true
+format = DEC
+
+[group0-plot0-series6]
+name = oled_online
+visibility = true
+format = DEC
+
+[group0-plot0-series7]
+name = oled_last_error
+visibility = true
+format = DEC
+
+[group0-plot0-series8]
+name = power_output_enabled
+visibility = true
+format = DEC
+

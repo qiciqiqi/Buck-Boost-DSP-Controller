@@ -1,0 +1,8 @@
+
+--------------------------------------------------------------------------------
+Initializing CCS...
+
+Initializing TargetDB cache... Finished!
+Generating dynamic tool-definitions... Finished!
+Discovering products and compilers... Finished!
+

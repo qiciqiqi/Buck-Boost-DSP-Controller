@@ -1,0 +1,6 @@
+
+
+
+
+
+GIT_LOGIC_TESTS_PASSED: seven valid mode pairs, invalid Boost voltage, zero startup, complementary duty, protection, mode reset

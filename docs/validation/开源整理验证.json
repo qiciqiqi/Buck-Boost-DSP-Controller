@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-18",
+  "local_only": true,
+  "github_remote_configured": false,
+  "hardware_flashed_this_task": false,
+  "ram_build": {
+    "errors": 0,
+    "warnings": 10
+  },
+  "flash_build": {
+    "errors": 0,
+    "warnings": 10
+  },
+  "host_control_logic": "passed",
+  "host_serial_protocol": "passed",
+  "matlab_release": "R2023b",
+  "matlab_cases": 9,
+  "matlab_all_numeric_checks": "passed",
+  "load_ohm": 5,
+  "inductance_H": 0.0001,
+  "inductance_source": "unconfirmed example assumption",
+  "control_source_matches_backup": true,
+  "critical_ram_symbol_addresses_changed": false,
+  "new_font_hardware_visual_check": false,
+  "flash_sha256": "8b1f074324e1d6fd86aa8d0a135fba44e403ec72ea7d4fc0ec91a5fe7fb18cdb",
+  "hardware_archive_sha256": "5ce70b651410c69bc6847588d72eebb3afb11e298c11a956c8babe53c10d6b7c",
+  "scope_limits": [
+    "average model, no switching ripple/efficiency validation",
+    "hardware license not selected",
+    "prior physical tests belong to prior firmware"
+  ],
+  "directory_reorganization": {
+    "date": "2026-11-18",
+    "local_only": true,
+    "firmware_sources_unchanged": 29,
+    "hardware_bytes_unchanged": true,
+    "valid_local_markdown_links": 35,
+    "viewer_profiles_regenerated": 10,
+    "ram_build_errors": 0,
+    "flash_build_errors": 0,
+    "warnings_per_build": 10,
+    "python_and_powershell_syntax": "passed",
+    "host_tests": "passed",
+    "backup_outside_repository": true
+  }
+}

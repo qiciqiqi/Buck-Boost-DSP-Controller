@@ -1,0 +1,53 @@
+{
+  "port": "COM14",
+  "baudrate": 115200,
+  "read_only": true,
+  "passed": true,
+  "driver": {
+    "version": 1,
+    "revision": 2,
+    "max_variables": 32
+  },
+  "samples": [
+    {
+      "viewer_heartbeat": 5595,
+      "viewer_rx_bytes": 57,
+      "viewer_tx_bytes": 14,
+      "viewer_errors": 0,
+      "power_output_enabled": 0,
+      "oled_online": 1
+    },
+    {
+      "viewer_heartbeat": 5905,
+      "viewer_rx_bytes": 93,
+      "viewer_tx_bytes": 36,
+      "viewer_errors": 0,
+      "power_output_enabled": 0,
+      "oled_online": 1
+    },
+    {
+      "viewer_heartbeat": 6215,
+      "viewer_rx_bytes": 129,
+      "viewer_tx_bytes": 58,
+      "viewer_errors": 0,
+      "power_output_enabled": 0,
+      "oled_online": 1
+    },
+    {
+      "viewer_heartbeat": 6525,
+      "viewer_rx_bytes": 165,
+      "viewer_tx_bytes": 80,
+      "viewer_errors": 0,
+      "power_output_enabled": 0,
+      "oled_online": 1
+    },
+    {
+      "viewer_heartbeat": 6834,
+      "viewer_rx_bytes": 201,
+      "viewer_tx_bytes": 102,
+      "viewer_errors": 0,
+      "power_output_enabled": 0,
+      "oled_online": 1
+    }
+  ]
+}

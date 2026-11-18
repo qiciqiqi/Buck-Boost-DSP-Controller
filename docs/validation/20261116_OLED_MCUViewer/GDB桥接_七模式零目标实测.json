@@ -1,0 +1,100 @@
+[
+  {
+    "actual": {
+      "output_voltage_target": 0.0,
+      "openloop_command": 0.0,
+      "active_power_mode": 0.0,
+      "active_control_mode": 0.0,
+      "current_reference": 0.0,
+      "power_output_enabled": 0.0
+    },
+    "request": {
+      "p": 0,
+      "c": 0
+    }
+  },
+  {
+    "actual": {
+      "output_voltage_target": 0.0,
+      "openloop_command": 0.0,
+      "active_power_mode": 0.0,
+      "active_control_mode": 1.0,
+      "current_reference": 0.0,
+      "power_output_enabled": 0.0
+    },
+    "request": {
+      "p": 0,
+      "c": 1
+    }
+  },
+  {
+    "actual": {
+      "output_voltage_target": 0.0,
+      "openloop_command": 0.0,
+      "active_power_mode": 0.0,
+      "active_control_mode": 2.0,
+      "current_reference": 0.0,
+      "power_output_enabled": 0.0
+    },
+    "request": {
+      "p": 0,
+      "c": 2
+    }
+  },
+  {
+    "actual": {
+      "output_voltage_target": 0.0,
+      "openloop_command": 0.0,
+      "active_power_mode": 0.0,
+      "active_control_mode": 3.0,
+      "current_reference": 0.0,
+      "power_output_enabled": 0.0
+    },
+    "request": {
+      "p": 0,
+      "c": 3
+    }
+  },
+  {
+    "actual": {
+      "output_voltage_target": 0.0,
+      "openloop_command": 0.0,
+      "active_power_mode": 1.0,
+      "active_control_mode": 0.0,
+      "current_reference": 0.0,
+      "power_output_enabled": 0.0
+    },
+    "request": {
+      "p": 1,
+      "c": 0
+    }
+  },
+  {
+    "actual": {
+      "output_voltage_target": 0.0,
+      "openloop_command": 0.0,
+      "active_power_mode": 1.0,
+      "active_control_mode": 2.0,
+      "current_reference": 0.0,
+      "power_output_enabled": 0.0
+    },
+    "request": {
+      "p": 1,
+      "c": 2
+    }
+  },
+  {
+    "actual": {
+      "output_voltage_target": 0.0,
+      "openloop_command": 0.0,
+      "active_power_mode": 1.0,
+      "active_control_mode": 1.0,
+      "current_reference": 0.0,
+      "power_output_enabled": 0.0
+    },
+    "request": {
+      "p": 1,
+      "c": 1
+    }
+  }
+]

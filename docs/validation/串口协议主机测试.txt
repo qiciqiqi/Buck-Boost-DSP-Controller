@@ -1,0 +1,4 @@
+
+
+
+SERIAL_PROTOCOL_TESTS_PASSED: C2000 read/write, CRC, malformed size/address guards

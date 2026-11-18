@@ -1,0 +1,7 @@
+* text=auto
+*.md text eol=lf
+*.m text eol=lf
+*.py text eol=lf
+*.epro2 binary
+*.png binary
+*.mat binary

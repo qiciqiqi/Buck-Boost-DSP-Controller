@@ -1,0 +1,18 @@
+# Local build products and IDE state
+/build/
+/.ccs21-workspace/
+ccs_project/CPU1_RAM/
+ccs_project/CPU1_FLASH/
+ccs_project/.theia/
+ccs_project/.clangd
+__pycache__/
+*.pyc
+*.log
+*.d_raw
+# Generated results: PNG and summary.csv are deliberately retained.
+
+# Personal viewer layout and local cleanup manifest
+*.mcuv
+docs/validation/本地整理记录.json
+ccs_project/.settings/
+simulation/results/data/
