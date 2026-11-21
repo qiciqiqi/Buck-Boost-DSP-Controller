@@ -17,6 +17,7 @@
 - [CCS源码工程](ccs_project/)：导入、配置、编译固件。
 - [硬件工程](hardware/buck_boost.epro2)：嘉立创EDA原理图与PCB。
 - [MCUViewer调参入口](mcuviewer/tuning.mcuvproj)：启动脚本与各模式配置均在同一目录。
+- [下载技术文档（Word）](docs/f28p55x-buck-boost-technical-report.docx?raw=true)：STM32G474 到 F28P55X 的移植记录、接线、调参、四种闭环的上板照片及 MATLAB 仿真说明。
 
 ## 项目能做什么
 
@@ -28,6 +29,14 @@
 - 上电目标为0；换模式先停机、清除目标，稳定约10ms后接纳新模式。过流、过压、ADC异常等会关闭输出。
 
 作者已实测，控制效果与原 STM32G474 版本接近；这是一项实验观察，不是全工况定量性能报告。当前默认参数用于实验起步，未给出经统一仪器、全量程验证的效率或精度承诺。
+
+## 实板验证
+
+Buck 和 Boost 的单电流环、双环均有上板操作记录。下面选取 Buck 双环的两个测点：OLED 显示电压给定，外接万用表读取低压输出端（VBAT）的直流电压。
+
+![Buck 双环实板测量：给定 3.00 V，实测 2.945 V；给定 5.00 V，实测 4.945 V](docs/validation/buck-dual-loop-bench.png)
+
+两个测点的仪表读数均比给定低 55 mV。这是两个静态读数，不能用于判断响应时间、超调、纹波或全量程精度。技术文档记录的 Buck 功率电源面板设定为 30 V，12 V 是辅助电源；仓库中的 [MATLAB Buck 双环示例](simulation/README.md)使用 12 V 功率输入、6 V 输出给定，和这里不是同工况。
 
 ## 为什么选 F28P55X
 
